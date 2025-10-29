@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace prySilvaMenendez_SP4_EjTriatlon
 {
-    public partial class Form1 : Form
+    public partial class frmCompetenciaTriatlon : Form
     {
-        public Form1()
+        public frmCompetenciaTriatlon()
         {
             InitializeComponent();
         }
