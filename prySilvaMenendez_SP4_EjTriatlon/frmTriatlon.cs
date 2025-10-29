@@ -31,6 +31,8 @@ namespace prySilvaMenendez_SP4_EjTriatlon
             dgvParticipantes.Rows.Add("4", "", "");
             dgvParticipantes.Rows.Add("5", "", "");
             dgvParticipantes.Rows.Add("6", "", "");
+            dgvParticipantes.AutoGenerateColumns = false;
+            dgvParticipantes.AllowUserToAddRows = false;
         }
     }
 }

@@ -63,7 +63,7 @@
             this.dgvParticipantes.Location = new System.Drawing.Point(12, 12);
             this.dgvParticipantes.Name = "dgvParticipantes";
             this.dgvParticipantes.RowHeadersVisible = false;
-            this.dgvParticipantes.Size = new System.Drawing.Size(321, 162);
+            this.dgvParticipantes.Size = new System.Drawing.Size(303, 162);
             this.dgvParticipantes.TabIndex = 0;
             this.dgvParticipantes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvParticipantes_CellContentClick);
             // 
@@ -78,7 +78,7 @@
             this.col5,
             this.col6,
             this.col7});
-            this.dgvPosiciones.Location = new System.Drawing.Point(12, 180);
+            this.dgvPosiciones.Location = new System.Drawing.Point(12, 195);
             this.dgvPosiciones.Name = "dgvPosiciones";
             this.dgvPosiciones.RowHeadersVisible = false;
             this.dgvPosiciones.Size = new System.Drawing.Size(703, 113);
