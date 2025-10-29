@@ -16,5 +16,21 @@ namespace prySilvaMenendez_SP4_EjTriatlon
         {
             InitializeComponent();
         }
+
+        
+        private void dgvParticipantes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void frmCompetenciaTriatlon_Load(object sender, EventArgs e)
+        {
+            dgvParticipantes.Rows.Add("1", "", "");
+            dgvParticipantes.Rows.Add("2", "", "");
+            dgvParticipantes.Rows.Add("3", "", "");
+            dgvParticipantes.Rows.Add("4", "", "");
+            dgvParticipantes.Rows.Add("5", "", "");
+            dgvParticipantes.Rows.Add("6", "", "");
+        }
     }
 }
