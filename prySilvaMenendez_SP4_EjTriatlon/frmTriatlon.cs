@@ -34,5 +34,20 @@ namespace prySilvaMenendez_SP4_EjTriatlon
             dgvParticipantes.AutoGenerateColumns = false;
             dgvParticipantes.AllowUserToAddRows = false;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAsignarParticipantes_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(dgvParticipantes.CurrentRow.Cells["colNombre"].Value?.ToString()) ||
+                string.IsNullOrWhiteSpace(dgvParticipantes.CurrentRow.Cells["colPais"].Value?.ToString()))
+            {
+                MessageBox.Show("Datos Incompleto, Por Favor Complete Todas las Celdas","Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+        }
     }
 }
